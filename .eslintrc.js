@@ -1,12 +1,3 @@
-# typescript-pratic
-yarn init
-yarn add typescript -D
-yarn add ts-node -D
-yarn add eslint -D
-yarn add @typescript-eslint/parser -D
-yarn add @typescript-eslint/eslint-plugin -D
-create .eslintrc.js and paste that script:
-
 module.exports = {
   env: {
     browser: true,
@@ -31,13 +22,3 @@ module.exports = {
   plugins: ['@typescript-eslint'],
   rules: {},
 };
-
-create .pretierrc.js and paste that:
-
-module.exports = {
-  semi: true,
-  trailingComma: 'all',
-  singleQuote: true,
-  printWidth: 80,
-  tabWidth: 2,
-}
